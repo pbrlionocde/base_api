@@ -18,7 +18,7 @@ def get_base_json():
     try:
         file = open(f'{cwd}/test.json', 'r')
     except FileNotFoundError as error:
-        logger.error('test_message_log')
+        logger.error('JSON file is invalid, make sure you haven`t modify it')
         abort(404, {'detail': 'JSON file is invalid, make sure you haven`t modify it'})
     try:
         json_resp = json.load(file)
