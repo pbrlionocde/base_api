@@ -12,13 +12,10 @@
 
 
 # Run
-To run the API, use the command in the bash terminal
+install git and python  
+open `run_api.sh` with git  
 
-```bash
-    chmod a+rx run_api.sh
-```
-
-and then repeat the next command twice 
+repeat the next command in the bash terminal   
 ```bash
     ./run_api.sh
 ```
